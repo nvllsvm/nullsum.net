@@ -1,0 +1,6 @@
+*.pyc
+/env
+/cache
+/output
+__pycache__
+.doit.db
