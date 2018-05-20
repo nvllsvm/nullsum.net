@@ -1,6 +1,7 @@
 *.pyc
-/env
+.doit.db
 /cache
+/certs
+/env
 /output
 __pycache__
-.doit.db
