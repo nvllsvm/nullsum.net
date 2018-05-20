@@ -59,3 +59,6 @@ rsync -avz --progress --delete -e ssh bin/ nullsum.net:~/bin
 ssh nullsum.net /home/draje/bin/reload.sh
 
 rm -rf $CERTBOT_DIR
+rm -rf $WELL_KNOWN_DIR
+
+rsync -avz --progress --delete -e ssh ./certs/renewal/ nullsum.net:~/certs/renewal
