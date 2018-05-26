@@ -33,7 +33,7 @@ cat > $AUTH_SCRIPT<<EOF
 #!/bin/sh
 mkdir -p $ACME_DIR
 echo \$CERTBOT_VALIDATION > $ACME_DIR/\$CERTBOT_TOKEN
-rsync -avz --progress --delete -e ssh ./certs/renewal/ nullsum.net:~/certs/renewal
+rsync -avz --progress --delete -e ssh ./certs/renewal/ nullsum.net:'~/certs/renewal'
 EOF
 chmod +x $AUTH_SCRIPT
 
@@ -53,12 +53,12 @@ LIVE_DIR=$CERTBOT_DIR/config/live/$DOMAIN
 cp -L $LIVE_DIR/fullchain.pem $CERT_FULLCHAIN
 cp -L $LIVE_DIR/privkey.pem $CERT_PRIVKEY
 
-rsync -avz --progress --delete -e ssh certs/pem/ nullsum.net:~/certs/pem
+rsync -avz --progress --delete -e ssh certs/pem/ nullsum.net:'~/certs/pem'
 
-rsync -avz --progress --delete -e ssh bin/ nullsum.net:~/bin
+rsync -avz --progress --delete -e ssh bin/ nullsum.net:'~/bin'
 ssh nullsum.net /home/draje/bin/reload.sh
 
 rm -rf $CERTBOT_DIR
 rm -rf $WELL_KNOWN_DIR
 
-rsync -avz --progress --delete -e ssh ./certs/renewal/ nullsum.net:~/certs/renewal
+rsync -avz --progress --delete -e ssh ./certs/renewal/ nullsum.net:'~/certs/renewal'
