@@ -553,3 +553,14 @@ pre.code, code {
 sub {
     font-style: italic;
 }
+
+#content ul {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+#content img {
+    border-radius: 10px;
+}
