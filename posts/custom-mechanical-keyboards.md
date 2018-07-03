@@ -5,7 +5,7 @@
 .. tags: keyboards
 .. category: 
 .. link: 
-.. description: 
+.. description: My minimalist custom mechanical keyboards.
 .. type: text
 -->
 
