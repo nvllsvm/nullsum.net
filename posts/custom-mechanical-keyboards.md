@@ -10,7 +10,7 @@
 -->
 
 This is the 10th year I've been using mechanical keyboards - specifically with Cherry MX Blue switches and blank keycaps.
-Numerous keyboards and a few jobs later, the magestic clack is still *euphoric*.
+Numerous keyboards and a few jobs later, the majestic clack is still *euphoric*.
 
 ![top-down: travel, work, home](/images/custom-mechanical-keyboards/keyboards.jpg)
 
@@ -23,7 +23,7 @@ If you're curious, I love the [Zowie FK1](https://zowie.benq.com/en/product/mous
 lack of specialized drivers, and lack of hardware acceleration.
 
 # Build
-After rotating through a number of pre-assembled keyboards and one DIY kit, I knew my preferences and decided to build the keyboard
+After rotating through a number of preassembled keyboards and one DIY kit, I knew my preferences and decided to build the keyboard
 which embodied them all.
 
 - **60% Layout** - Having owned both full-size and [tenkeyless](https://deskthority.net/wiki/Tenkeyless_keyboard) keyboards, I
