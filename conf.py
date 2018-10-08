@@ -216,7 +216,7 @@ TIMEZONE = "America/New_York"
 
 # Date format used to display post dates. (translatable)
 # (str used by datetime.datetime.strftime)
-DATE_FORMAT = '%Y-%m-%d'
+DATE_FORMAT = 'YYYY-MM-dd'
 
 # Date format used to display post dates, if local dates are used. (translatable)
 # (str used by moment.js)
