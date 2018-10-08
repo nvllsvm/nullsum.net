@@ -7,9 +7,6 @@
 .. description: An overview of how Python's multiprocessing.Pool is awesome, yet flawed, and how the consumers module does it better.
 .. type: text
 
-Simplified Python Parallelization
-=================================
-
 :subscript:`Using Python 3.6`
 
 I fell in love when I first discovered Python's |multiprocessing.Pool|_.
