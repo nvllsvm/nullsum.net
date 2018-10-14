@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 set -ex
 
-PATH=$PATH:$HOME/bin
+alias docker-compose="$HOME/bin/docker-compose"
 
 cd ~/docker
 docker-compose pull
