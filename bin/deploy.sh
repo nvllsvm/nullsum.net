@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env sh
 set -ex
 
 ./bin/copy_to_remote.sh

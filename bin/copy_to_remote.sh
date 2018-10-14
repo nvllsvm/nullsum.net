@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env sh
 set -ex
 
 ssh nullsum.net mkdir -p "~/certs"

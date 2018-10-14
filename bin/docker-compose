@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env sh
 COMPOSE_VERSION=1.22.0
 exec docker run \
     --rm \
