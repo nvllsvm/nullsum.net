@@ -1,0 +1,8 @@
+#!/bin/sh
+COMPOSE_VERSION=1.22.0
+exec docker run \
+    --rm \
+    -v /var/run/docker.sock:/var/run/docker.sock \
+    -v "${PWD}:${PWD}" \
+    -w "${PWD}" \
+    "docker/compose:${COMPOSE_VERSION}" "$@"

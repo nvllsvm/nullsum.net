@@ -1,7 +1,7 @@
 #!/bin/sh
 set -ex
 
-PATH=$PATH:/opt/bin
+PATH=$PATH:$HOME/bin
 
 cd ~/docker
 docker-compose pull
