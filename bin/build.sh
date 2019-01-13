@@ -1,7 +1,9 @@
 #!/usr/bin/env sh
 set -ex
 
-find output -mindepth 1 -delete
+if [ -d output ]; then
+    find output -mindepth 1 -delete
+fi
 pipenv install --dev
 pipenv run nikola build
 image_optim -r output
