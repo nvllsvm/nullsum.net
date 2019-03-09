@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-COMPOSE_VERSION=1.22.0
+COMPOSE_VERSION=1.23.2
 exec docker run \
     --rm \
     -v /var/run/docker.sock:/var/run/docker.sock \
