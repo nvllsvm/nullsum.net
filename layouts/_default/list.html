@@ -1,0 +1,9 @@
+{{ define "main" }}
+    {{ range .Pages.ByPublishDate.Reverse }}
+        <header class="content">
+            <time datetime="{{ .Date }}">{{ dateFormat "2006-01-02" .Date }}</time>
+            <a href="{{ .RelPermalink }}">{{ .Title }}
+            </a>
+        </header>
+    {{ end }}
+{{ end }}

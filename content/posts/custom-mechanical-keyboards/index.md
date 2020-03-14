@@ -1,18 +1,16 @@
-<!--
-.. title: Custom Mechanical Keyboards
-.. slug: custom-mechanical-keyboards
-.. date: 2018-07-03 14:49:00 UTC-04:00
-.. tags: keyboards
-.. category: 
-.. link: 
-.. description: My minimalist custom mechanical keyboards.
-.. type: text
--->
+---
+title: "Custom Mechanical Keyboards"
+date: 2018-07-03T14:49:00-04:00
+tags: ["keyboards"]
+draft: false
+aliases:
+    - /posts/custom-mechanical-keyboards
+---
 
 This is the 10th year I've been using mechanical keyboards - specifically with Cherry MX Blue switches and blank keycaps.
 Numerous keyboards and a few jobs later, the majestic clack is still *euphoric*.
 
-![top-down: travel, work, home](/images/custom-mechanical-keyboards/keyboards.jpg)
+![top-down: travel, work, home](keyboards.jpg)
 
 From the top down are my current travel, work, and home setups. The top keyboard is the first I built and was 
 done so from a kit.
@@ -22,7 +20,7 @@ same layout. I value consistency **a lot** as it's one less think about or adjus
 If you're curious, I love the [Zowie FK1](https://zowie.benq.com/en/product/mouse/fk/fk1.html) mouse due its simple looks,
 lack of specialized drivers, and lack of hardware acceleration.
 
-# Build
+## Build
 After rotating through a number of preassembled keyboards and one DIY kit, I knew my preferences and decided to build the keyboard
 which embodied them all.
 
@@ -54,11 +52,11 @@ black Plasti Dip.
 * [Gateron PBT keycaps *(blank, black)*](https://mechanicalkeyboards.com/shop/index.php?l=product_detail&p=1652)
 
 
-# Layout
+## Layout
 
 As mentioned earlier, the popular and very active [QMK Firmware](https://docs.qmk.fm) powers my keyboards with
 a layout customized to meet my desires.
 
 The source code for my layout can be found [here](https://github.com/nvllsvm/dotfiles/blob/master/qmk_firmware/s60_x/mine/keymap.c).
 
-![my layout](/images/custom-mechanical-keyboards/layout.png)
+![my layout](layout.png)

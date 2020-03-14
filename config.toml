@@ -1,0 +1,6 @@
+baseURL = "https://nullsum.net"
+languageCode = "en-us"
+title = "nullsum.net"
+
+[params]
+homeText = "Personal blog of Andrew Rabert"

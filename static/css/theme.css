@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 700px;
+    margin: 0 auto;
+    color: #3a4145;
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 1.7;
+    width: 100%;
+}
+
+.header {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content time {
+    font-size: 90%;
+    opacity: 0.6;
+}
+
+.content h1 {
+    font-size: 1.75em;
+}
+
+.content ul {
+    padding: 1em 0.5em 1em 1.5em;
+}
+
+.content p + P {
+    margin-top: 1em;
+}
+
+#logo {
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+#menu li {
+    display: inline-block;
+    text-align: center;
+    padding: 0 0.85em;
+    margin-top: 1em;
+}
+
+:visited {
+    color: unset;
+}
+
+:focus {
+    outline:none !important;
+}
+
+:link {
+    color: inherit;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+:link:hover, :visited:hover {
+    color: #aaa;
+}
+
+:link:active {
+    color: #000;
+}
+
+.content img {
+    border-radius: 10px;
+    height: auto;
+    max-width: 100%;
+}
+
+.content pre {
+    border-radius: 10px;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.content h2 {
+    margin-top: 1em;
+    margin-bottom: 0.25em;
+    font-size: 125%;
+}
+
+#footer {
+    text-align: center;
+    padding: 2em;
+    font-size: 80%;
+}
