@@ -1,8 +1,8 @@
 #!/usr/bin/env sh
-COMPOSE_VERSION=1.24.1
+docker pull docker/compose
 exec docker run \
     --rm \
     -v /var/run/docker.sock:/var/run/docker.sock \
     -v "${PWD}:${PWD}" \
     -w "${PWD}" \
-    "docker/compose:${COMPOSE_VERSION}" "$@"
+    docker/compose "$@"
