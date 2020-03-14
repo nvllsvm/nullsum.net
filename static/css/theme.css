@@ -12,6 +12,7 @@ body {
     font-family: sans-serif;
     line-height: 1.7;
     width: 100%;
+    overflow-y: scroll;
 }
 
 .header {
@@ -91,6 +92,7 @@ body {
     padding: 1em;
     margin-top: 1em;
     margin-bottom: 1em;
+    overflow: auto;
 }
 
 .content h2 {
@@ -103,4 +105,8 @@ body {
     text-align: center;
     padding: 2em;
     font-size: 80%;
+}
+
+.content {
+    padding: 0 1em;
 }
