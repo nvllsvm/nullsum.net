@@ -45,7 +45,7 @@
         </div>
         {{ block "main" . }}{{ end }}
         <footer id="footer">
-            <p>Contents © 2018-{{ dateFormat "2006" now }} Andrew Rabert</p>
+            {{ replace .Site.Copyright "{year}" now.Year }}
         </footer>
     </body>
 </html>

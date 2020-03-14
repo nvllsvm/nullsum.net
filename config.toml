@@ -1,6 +1,7 @@
 baseURL = "https://nullsum.net"
 languageCode = "en-us"
 title = "nullsum.net"
+copyright = "Copyright © 2018-{year} Andrew Rabert"
 
 [params]
 homeText = "Personal blog of Andrew Rabert"
