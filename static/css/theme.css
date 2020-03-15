@@ -30,6 +30,7 @@ body {
 
 .content h1 {
     font-size: 1.75em;
+    padding-bottom: 0.25em;
 }
 
 .content ul {
