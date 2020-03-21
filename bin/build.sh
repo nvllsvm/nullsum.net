@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 set -ex
 
-hugo
+hugo --cleanDestinationDir --minify
