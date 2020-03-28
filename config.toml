@@ -4,6 +4,7 @@ title = "nullsum.net"
 copyright = "Copyright © 2018-{year} Andrew Rabert"
 
 pygmentsUseClasses=true
+disableHugoGeneratorInject=true
 
 [params]
 homeText = "Personal blog of Andrew Rabert"
