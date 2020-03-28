@@ -1,9 +1,12 @@
 <!doctype html>
 <html>
     <head>
+        <title>{{ .Title }}</title>
+        {{ with .OutputFormats.Get "rss" -}}
+            {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+        {{ end -}}
         <meta name="viewport" content="width=device-width">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>{{ .Title }}</title>
         <link rel="apple-touch-icon" href="/apple-icon-57x57.png" sizes="57x57">
         <link rel="apple-touch-icon" href="/apple-icon-60x60.png" sizes="60x60">
         <link rel="apple-touch-icon" href="/apple-icon-72x72.png" sizes="72x72">
