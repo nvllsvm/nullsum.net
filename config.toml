@@ -1,7 +1,6 @@
 baseURL = "https://nullsum.net"
 languageCode = "en-us"
 title = "nullsum.net"
-copyright = "Copyright © 2018-{year} Andrew Rabert"
 
 pygmentsUseClasses=true
 disableHugoGeneratorInject=true
