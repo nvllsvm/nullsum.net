@@ -1,13 +1,19 @@
-version: '3.5'
+version: '3.7'
 
 services:
+  syncthing:
+    image: syncthing/syncthing
+    volumes:
+      - ../syncthing/config:/var/syncthing/config
+      - ../syncthing/folders:/var/syncthing/folders
+    network_mode: host
+    restart: always
+
   nginx:
     image: nginx:alpine
-    ports:
-      - '80:80'
-      - '443:443'
     volumes:
       - ../certs:/certs:ro
       - ../content:/srv/http:ro
       - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    network_mode: host
     restart: always
