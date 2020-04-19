@@ -38,6 +38,11 @@ body {
     padding: 1em 0.5em 1em 1.5em;
 }
 
+.content li > ul {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
 .content p + P {
     margin-top: 1em;
 }
@@ -103,11 +108,21 @@ body {
     font-size: 125%;
 }
 
+.content h3 {
+    margin-top: 1em;
+    margin-bottom: 0.25em;
+    font-size: 100%;
+}
+
 .content {
     padding: 0 1em;
 }
 
-/* Background */ .chroma { color: #272822; background-color: #fafafa }
+pre {
+    background-color: #f0f0f0;
+}
+
+/* Background */ .chroma { color: #272822; background-color: #f0f0f0 }
 /* Error */ .chroma .err { color: #960050; background-color: #1e0010 }
 /* LineTableTD */ .chroma .lntd { vertical-align: top; padding: 0; margin: 0; border: 0; }
 /* LineTable */ .chroma .lntable { border-spacing: 0; padding: 0; margin: 0; border: 0; width: auto; overflow: auto; display: block; }
