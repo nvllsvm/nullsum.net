@@ -29,6 +29,19 @@ body {
     opacity: 0.6;
 }
 
+.postList {
+    display: flex;
+    flex-direction: row;
+}
+
+#listItem {
+    padding-bottom: 0.25em;
+}
+
+.postList time {
+    padding-right: 1em;
+}
+
 .content h1 {
     font-size: 1.75em;
     padding-bottom: 0.25em;
