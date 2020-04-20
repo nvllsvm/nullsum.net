@@ -71,7 +71,6 @@ There were two locations where the diff indicated that 18 was changed to 19.
 Comparing 1.11 to 1.18 further reinforced my assumption:
 
 ```diff
-
 344c344
 < 00001570: e8a0 cf00 00c7 8630 0100 0011 0100 008a  .......0........
 ---
