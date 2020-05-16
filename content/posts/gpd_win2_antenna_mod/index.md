@@ -20,8 +20,8 @@ Red lines mark roughly the location of the original antennas while pink and cyan
 mark the location of the main and aux antennas respectively. 
 
 I don't have metrics for the old antennas as I did this mod only after accidentally damaging them.
-However, I my connection to both my 2.4GHz and 5GHz networks is noticeably better. Achieving
-three bars of strength in spots of my house where I previously reach one to two bars. More importantly,
+However, the new antennas are noticeably better - achieving
+three bars of strength in spots of my house where the stock antennas reach one to two bars. More importantly,
 **my grip no longer degrades speed nor strength of signal.**
 
 Seeing ~500Mbps download/upload when the device is held next to my router and ~180Mbps download/upload
