@@ -4,8 +4,7 @@ services:
   syncthing:
     image: syncthing/syncthing
     volumes:
-      - ../syncthing/config:/var/syncthing/config
-      - ../syncthing/folders:/var/syncthing/folders
+      - ../syncthing:/var/syncthing
     network_mode: host
     restart: always
 
