@@ -7,7 +7,7 @@ aliases:
     - /posts/mpd-art-box
 ---
 I love using [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) to control MPD music playback.
-It's lightweight, simple, and does everything I need to control playback of music with one exception - displaying
+It's lightweight, simple, and does everything I need with one exception - displaying
 cover art. After recently starting to learn [PyGObject](https://pygobject.readthedocs.io/en/latest/)
 for PinePhone app development, it became clear that
 I could also use PyGObject to create the missing piece in my PC music playback environment - covert art display.
