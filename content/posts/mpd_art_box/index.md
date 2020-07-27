@@ -20,4 +20,5 @@ The result looks great, especially when sharing a split [i3](https://i3wm.org/) 
 [![screenshot](screenshot.jpg)](screenshot.jpg)
 
 I'm very pleased how quick it was to create and how little code there is to maintain.
-Next is figuring out how fill the extra space of the window with a blurred version of the cover.
+
+See the source repository for more information: [GitHub - nvllsvm/mpd-art-box](https://github.com/nvllsvm/mpd-art-box)
