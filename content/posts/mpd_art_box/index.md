@@ -8,7 +8,8 @@ aliases:
 ---
 I've been a user of the terminal-based [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) for over a decade.
 It's lightweight, simple, and does everything I need to control playback of music with one exception - displaying
-cover art. After recently starting to learn PyGObject for Pinephone app development, it became clear that
+cover art. After recently starting to learn [PyGObject](https://pygobject.readthedocs.io/en/latest/)
+for Pinephone app development, it became clear that
 I could also use PyGObject to create the missing piece in my PC music playback environment - covert art display.
 
 Thus, [mpd-art-box](https://github.com/nvllsvm/mpd-art-box) was created.
