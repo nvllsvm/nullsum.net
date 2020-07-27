@@ -9,7 +9,7 @@ aliases:
 I've been a user of the terminal-based [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) for over a decade.
 It's lightweight, simple, and does everything I need to control playback of music with one exception - displaying
 cover art. After recently starting to learn [PyGObject](https://pygobject.readthedocs.io/en/latest/)
-for Pinephone app development, it became clear that
+for PinePhone app development, it became clear that
 I could also use PyGObject to create the missing piece in my PC music playback environment - covert art display.
 
 Thus, [mpd-art-box](https://github.com/nvllsvm/mpd-art-box) was created. Nothing fancy - just 127 lines of Python
@@ -19,6 +19,6 @@ The result looks great, especially when sharing a split [i3](https://i3wm.org/) 
 
 [![screenshot](screenshot.jpg)](screenshot.jpg)
 
-I'm very pleased how quick it was to create and how little code there is to maintain.
+It's still a kind of rough around the edges, but I'm very pleased how quick it was to create and how little code there is to maintain.
 
 See the source repository for more information: [GitHub - nvllsvm/mpd-art-box](https://github.com/nvllsvm/mpd-art-box)
