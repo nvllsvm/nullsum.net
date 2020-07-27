@@ -12,14 +12,12 @@ cover art. After recently starting to learn [PyGObject](https://pygobject.readth
 for Pinephone app development, it became clear that
 I could also use PyGObject to create the missing piece in my PC music playback environment - covert art display.
 
-Thus, [mpd-art-box](https://github.com/nvllsvm/mpd-art-box) was created.
-
-The project was started ~12 hours ago and ended up being usable a few hours later. Nothing fancy - just 127 lines of Python
-which creates a window to show cover art for the current song that MPD is playing. Very pleased how quick it was
-to create and how little code there is.
+Thus, [mpd-art-box](https://github.com/nvllsvm/mpd-art-box) was created. Nothing fancy - just 127 lines of Python
+which creates a window showing local cover art for the currently playing song in MPD. 
 
 The result looks great, especially when sharing a split [i3](https://i3wm.org/) layout with ncmpcpp.
 
 [![screenshot](screenshot.jpg)](screenshot.jpg)
 
+I'm very pleased how quick it was to create and how little code there is to maintain.
 Next is figuring out how fill the extra space of the window with a blurred version of the cover.
