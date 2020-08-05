@@ -18,3 +18,11 @@ service docker start
 cat > ~/.profile << EOF
 export COMPOSE_FILE=~/docker/docker-compose.yml
 EOF
+
+. ~/.profile
+
+docker-compose pull
+docker-compose down --remove-orphans --volumes
+docker-compose up -d
+
+docker system prune --all --force --volumes
