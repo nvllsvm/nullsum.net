@@ -7,4 +7,22 @@
             </div>
         </header>
     {{ end }}
+    <!--
+    <div id="menu">
+        <li id="newer">
+    {{ if .Paginator.HasPrev }}
+        <a href="{{ .Paginator.Prev.URL }}" class="pagination__link pagination__link--previous">
+            Newer
+        </a>
+    {{ end }}
+        </li>
+        <li id="older">
+    {{ if .Paginator.HasNext }}
+        <a href="{{ .Paginator.Next.URL }}" class="pagination__link pagination__link--next">
+            Older
+        </a>
+    {{ end }}
+        </li>
+    </div>
+    -->
 {{ end }}
