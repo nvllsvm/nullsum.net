@@ -18,3 +18,5 @@ The exterior of the port was sealed with
 The breakout board was trimmed and reinforced with epoxy and hot glue.
 
 [![exposed](exposed.jpg)](exposed.jpg)
+
+Was it worth the effort just to have one less charging cable? Absolutely.
