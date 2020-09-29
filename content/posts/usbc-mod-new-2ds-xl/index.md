@@ -6,8 +6,7 @@ draft: false
 aliases:
     - /posts/usbc-mod-new-2ds-xl
 images:
-    - ./final.jpg
-    - ./exposed.jpg
+    - /posts/usbc-mod-new-2ds-xl/final.jpg
 ---
 Replaced the proprietary charging port on my New 2DS XL with a USB-C
 port ([Adafruit USB-C breakout board](https://www.adafruit.com/product/4090)).
