@@ -5,6 +5,8 @@ tags: ["gpd win 2, mod"]
 draft: false
 aliases:
     - /posts/gpd_win2_antenna_mod
+images:
+    - /posts/gpd_win2_antenna_mod/antenna_locations.jpg
 ---
 The WiFi antennas in the GPD Win 2 are poorly placed - located roughly under
 where one would grip the device with their palms. This results in noticeably

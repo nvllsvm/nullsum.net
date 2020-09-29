@@ -5,6 +5,8 @@ tags: ["mpd", "python"]
 draft: false
 aliases:
     - /posts/mpd-art-box
+images:
+    - /posts/mpd-art-box/screenshot.jpg
 ---
 I love using [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) to control MPD music playback.
 It's lightweight, simple, and does everything I need with one exception - displaying

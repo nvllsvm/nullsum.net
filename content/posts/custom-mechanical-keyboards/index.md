@@ -5,6 +5,8 @@ tags: ["keyboards"]
 draft: false
 aliases:
     - /posts/custom-mechanical-keyboards
+images:
+    - /posts/custom-mechanical-keyboards/keyboards.jpg
 ---
 
 This is the 10th year I've been using mechanical keyboards - specifically with Cherry MX Blue switches and blank keycaps.
