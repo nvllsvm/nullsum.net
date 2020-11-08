@@ -103,4 +103,7 @@ This simple change allowed me to bypass the installer's downgrade "protection" w
 altering how the firmware identifies itself. I was able to install each version of the firmware
 without issue.
 
-Patched installers for all three gamepad firmwares can be downloaded from [here](https://mega.nz/file/aywnEIRQ#DCoZaygsySdsXdDQ-ZVtFqL8Jo7xQkqswYcmHWr3Ie8).
+Downloads for the patched installers:
+- [v1.11](gpd_win_2_gamepad_V1.11_20180105_downgradeable.exe.tar.zst)
+- [v1.18](gpd_win_2_gamepad_V1.18_20180314_downgradeable.exe.tar.zst)
+- [v1.19](gpd_win_2_gamepad_V1.19_20180531_downgradeable.exe.tar.zst)
