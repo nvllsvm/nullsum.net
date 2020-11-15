@@ -7,3 +7,6 @@ disableHugoGeneratorInject=true
 
 [params]
 homeText = "Personal blog of Andrew Rabert"
+
+[minify]
+minifyOutput=true
