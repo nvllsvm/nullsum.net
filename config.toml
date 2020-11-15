@@ -1,6 +1,7 @@
 baseURL = "https://nullsum.net"
 languageCode = "en-us"
 title = "nullsum.net"
+cleanDestinationDir=true
 
 pygmentsUseClasses=true
 disableHugoGeneratorInject=true
