@@ -15,6 +15,10 @@ body {
     margin-bottom: 2em;
 }
 
+code {
+    font-size: 14px;
+}
+
 .header {
     padding-top: 1em;
     padding-bottom: 1em;
@@ -101,16 +105,14 @@ body {
 }
 
 .content img {
-    border-radius: 10px;
     height: auto;
     max-width: 100%;
 }
 
 .content pre {
-    border-radius: 10px;
-    padding: 1em;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    padding: 0.5em;
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
     overflow: auto;
 }
 
