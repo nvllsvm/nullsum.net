@@ -1,6 +1,7 @@
 ---
 title: "Bypassing GPD Win 2 Firmware Downgrade Protection"
 date: 2020-04-19T12:28:50-04:00
+lastmod: 2020-12-26T14:51:53-05:00
 tags: ["gpd win 2, hack"]
 draft: false
 aliases:
@@ -86,10 +87,11 @@ display in the UI - no reason to change it. The second line is used in the
 check which prevents downgrading the firmware.
 
 I changed `0018` to `0099` in the second line and transformed the dump back to a binary.
+Also changed `0100` to `9900` to allow downgrading from the GPD Win Max firmware.
 
 ```diff
 367c367
-< 000016e0: 0000 52ff d681 3d84 6057 0099 0100 0076  ..R...=.`W.....v
+< 000016e0: 0000 52ff d681 3d84 6057 0099 9900 0076  ..R...=.`W.....v
 ---
 > 000016e0: 0000 52ff d681 3d84 6057 0019 0100 0076  ..R...=.`W.....v
 ```
@@ -104,6 +106,14 @@ altering how the firmware identifies itself. I was able to install each version 
 without issue.
 
 Downloads for the patched installers:
-- [v1.11](gpd_win_2_gamepad_V1.11_20180105_downgradeable.exe.tar.zst)
-- [v1.18](gpd_win_2_gamepad_V1.18_20180314_downgradeable.exe.tar.zst)
-- [v1.19](gpd_win_2_gamepad_V1.19_20180531_downgradeable.exe.tar.zst)
+- [v1.11](gpd_win_2_gamepad_V1.11_20180105_downgradable2.exe.tar.zst)
+- [v1.18](gpd_win_2_gamepad_V1.18_20180314_downgradable2.exe.tar.zst)
+- [v1.19](gpd_win_2_gamepad_V1.19_20180531_downgradable2.exe.tar.zst)
+- [v5.26](gpd_win_max_gamepad_V5.26_20200722_downgradable.exe.tar.zst)\*
+
+\*v5.26 was released for the GPD Win Max, but also works on the GPD Win 2.
+The deadzones are greatly reduced, but the axises are mapped incorrectly. I used
+[xboxdrv](https://xboxdrv.gitlab.io/) on Linux to remap them: 
+```
+sudo xboxdrv --detach-kernel-driver --axismap=X1=Y1,-Y1=X1,-X2=Y2,Y2=X2
+```
