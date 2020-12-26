@@ -15,7 +15,7 @@ with whatever opinions the latest firmware has.
 Some of the various differences in gamepad behavior are listed below.
 
 - v1.11
-    - D-pad as WASD keys 
+    - D-pad as WASD keys
     - Left joystick as scroll wheel
 - v1.18
     - D-pad as scroll wheel
@@ -33,9 +33,9 @@ $ du */.*
 296     v111/.rdata
 1172    v111/.text
 296     v118/.rdata
-1172	v118/.text
+1172    v118/.text
 296     v119/.rdata
-1172	v119/.text
+1172    v119/.text
 ```
 
 I proceeded to use xxd to dump the executables to hex files.
@@ -109,16 +109,18 @@ Downloads for the patched installers:
 - [v1.11](gpd_win_2_gamepad_V1.11_20180105_downgradable2.exe.tar.zst)
 - [v1.18](gpd_win_2_gamepad_V1.18_20180314_downgradable2.exe.tar.zst)
 - [v1.19](gpd_win_2_gamepad_V1.19_20180531_downgradable2.exe.tar.zst)
-- [v5.14](gpd_win_max_gamepad_V5.14_downgradable.exe.tar.zst)\* \*\*
-- [v5.15](gpd_win_max_gamepad_V5.15_downgradable.exe.tar.zst)\* \*\*
-- [v5.20](gpd_win_max_gamepad_V5.20_downgradable.exe.tar.zst)\* \*\*
-- [v5.26](gpd_win_max_gamepad_V5.26_20200722_downgradable.exe.tar.zst)\*
+- [v5.14](gpd_win_max_gamepad_V5.14_downgradable.exe.tar.zst) [\*]({{< ref "#note-1" >}}) [\*\*]({{< ref "#note-2" >}})
+- [v5.15](gpd_win_max_gamepad_V5.15_downgradable.exe.tar.zst) [\*]({{< ref "#note-1" >}}) [\*\*]({{< ref "#note-2" >}})
+- [v5.20](gpd_win_max_gamepad_V5.20_downgradable.exe.tar.zst) [\*]({{< ref "#note-1" >}}) [\*\*]({{< ref "#note-2" >}})
+- [v5.26](gpd_win_max_gamepad_V5.26_20200722_downgradable.exe.tar.zst) [\*]({{< ref "#note-1" >}})
 
-\*release for GPD Win Max, but also works with the GPD Win 2.
+### {#note-1}
+[\*]({{< ref "#note-1" >}})Released for GPD Win Max, but also works with the GPD Win 2.
 The deadzones are greatly reduced, but the axes are mapped incorrectly. I used
-[xboxdrv](https://xboxdrv.gitlab.io/) on Linux to remap them: 
+[xboxdrv](https://xboxdrv.gitlab.io/) on Linux to remap them:
 ```
 sudo xboxdrv --detach-kernel-driver --axismap=X1=Y1,-Y1=X1,-X2=Y2,Y2=X2
 ```
 
-\*\*Installers were patched, but I didn't test them or it doesn't work properly.
+### {#note-2}
+[\*\*]({{< ref "#note-2" >}})Installers were patched, but I didn't test them or it doesn't work properly.
