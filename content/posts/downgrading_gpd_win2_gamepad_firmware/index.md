@@ -112,7 +112,7 @@ Downloads for the patched installers:
 - [v5.26](gpd_win_max_gamepad_V5.26_20200722_downgradable.exe.tar.zst)\*
 
 \*v5.26 was released for the GPD Win Max, but also works on the GPD Win 2.
-The deadzones are greatly reduced, but the axises are mapped incorrectly. I used
+The deadzones are greatly reduced, but the axes are mapped incorrectly. I used
 [xboxdrv](https://xboxdrv.gitlab.io/) on Linux to remap them: 
 ```
 sudo xboxdrv --detach-kernel-driver --axismap=X1=Y1,-Y1=X1,-X2=Y2,Y2=X2
