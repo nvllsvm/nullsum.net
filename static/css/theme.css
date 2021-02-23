@@ -96,6 +96,11 @@ code {
     text-decoration: none;
 }
 
+.content :link {
+    font-weight: normal;
+    text-decoration: underline;
+}
+
 :link:hover, :visited:hover {
     color: #aaa;
 }
