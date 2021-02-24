@@ -19,7 +19,7 @@ For the XPS 13 9360, the vulnerability was patched in [BIOS update 2.14.2](https
 Though this had the side effect of **completely blocking the ability to undervolt** - even for people like me with
 SGX disabled in UEFI settings.
 
-I only noticed this months after updating to BIOS on my laptop when I noticed that
+I only realized this months after updating to BIOS on my laptop when I noticed that
 the [intel-undervolt](https://github.com/kitsunyan/intel-undervolt) tool was no longer working [[related issue](https://github.com/kitsunyan/intel-undervolt/issues/43)]:
 ```
 $ intel-undervolt
