@@ -37,6 +37,11 @@ code {
     flex-direction: row;
 }
 
+#listItem a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
 #listItem {
     padding-bottom: 0.25em;
 }
