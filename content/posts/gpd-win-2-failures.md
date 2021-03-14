@@ -1,5 +1,5 @@
 ---
-title: "GPD Win 2: ten hardware failures in under three years"
+title: "GPD Win 2: Ten Hardware Failures in Under Three Years"
 date: 2021-03-13T22:20:14-05:00
 tags: ["gpd", "gpd win 2"]
 draft: false
