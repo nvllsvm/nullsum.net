@@ -21,7 +21,7 @@ There was a loud buzzing sound from the lower right of the display throughout al
 ## Analysis
 There were no signs of damaged components on the PCBs as I gradually disassembled the display.
 Only when I reached the panel did I notice something off - one of the ribbons connected
-to the panel was different than the others.
+to the panel looked different than the others.
 
 The display is upside down in this picture. The pink arrow corresponds to the
 location where I initially heard the buzzing sound.
