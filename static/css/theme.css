@@ -1,3 +1,25 @@
+:root {
+    --background-color: #fff;
+    --link-active: #000;
+    --link-hover: #aaa;
+    --pre-background: #f0f0f0;
+    --table-border: #ddd;
+    --table-row-nth-background: #f8f8f8;
+    --text: #3a4145;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #000;
+        --table-border: #222;
+        --link-active: #fff;
+        --link-hover: #555;
+        --pre-background: #0f0f0f;
+        --table-row-nth-background: #070707;
+        --text: #c5beba;
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,9 +27,10 @@
 }
 
 body {
+    background-color: var(--background-color);
     max-width: 700px;
     margin: 0 auto;
-    color: #3a4145;
+    color: var(--text);
     font-size: 16px;
     font-family: sans-serif;
     width: 100%;
@@ -107,11 +130,11 @@ code {
 }
 
 :link:hover, :visited:hover {
-    color: #aaa;
+    color: var(--link-hover);
 }
 
 :link:active {
-    color: #000;
+    color: var(--link-active);
 }
 
 .content img {
@@ -143,7 +166,7 @@ code {
 }
 
 pre {
-    background-color: #f0f0f0;
+    background-color: var(--pre-background);
 }
 
 th {
@@ -159,15 +182,14 @@ table {
 }
 
 table tr:nth-child(2n) {
-    background-color: #f8f8f8;
+    background-color: var(--table-row-nth-background);
 }
 
 td, th{
     padding: 6px 13px;
     padding: 0.25em 1em;
-    border: 1px solid #ddd;
+    border: 1px solid var(--table-border);
 }
-
 
 /* Background */ .chroma { color: #272822; background-color: #f0f0f0 }
 /* Error */ .chroma .err { color: #960050; background-color: #1e0010 }
