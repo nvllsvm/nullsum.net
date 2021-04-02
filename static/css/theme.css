@@ -50,6 +50,11 @@ code {
     justify-content: center;
 }
 
+.content hr {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
 .content time {
     font-size: 90%;
     opacity: 0.6;

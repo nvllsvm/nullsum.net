@@ -1,11 +1,19 @@
 ---
 title: "Simplified Python Parallelization"
 date: 2018-03-31T19:13:37-04:00
+lastmod: 2021-03-31T20:16:14-04:00
 tags: ["python"]
 draft: false
 aliases:
     - /posts/simplified-python-parallelization
 ---
+### Update:
+I've since moved onto the standard library's [concurrent.futures](https://docs.python.org/3/library/concurrent.futures.html)
+module for when I need a pool of processes.
+It's *good enough* and doesn't require external dependencies.
+
+---
+
 *Using Python 3.6*
 
 I fell in love when I first discovered Python's [`multiprocessing.Pool`](https://docs.python.org/3/library/multiprocessing.html#multiprocessing.pool.Pool).
