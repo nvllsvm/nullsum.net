@@ -24,7 +24,7 @@ Some of the various differences in gamepad behavior are listed below.
     - Joystick diagonal behavior altered
 
 ## Patching the installers
-I've previously had luck with [7z](http://p7zip.sourceforge.net/) extracting executables
+I've previously had luck with [p7zip](http://p7zip.sourceforge.net/) extracting executables
 so that's where I started. All three of the extracted executables contained the same files.
 Pruning duplicates left me with the following files - all the exact same size.
 
