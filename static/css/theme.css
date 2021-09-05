@@ -20,6 +20,10 @@
     }
 }
 
+time {
+    white-space: nowrap;
+}
+
 * {
     margin: 0;
     padding: 0;
