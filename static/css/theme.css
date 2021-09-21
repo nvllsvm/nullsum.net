@@ -146,6 +146,10 @@ code {
     color: var(--link-active);
 }
 
+.content {
+    line-height: 1.4;
+}
+
 .content img {
     height: auto;
     max-width: 100%;
