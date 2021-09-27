@@ -54,9 +54,21 @@ code {
     justify-content: center;
 }
 
+.content-gallery-image {
+    width: 50%;
+    height: auto;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.content-gallery {
+    display: flex;
+    justify-content: center;
+}
+
 .content hr {
-    margin-top: 2em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid;
+    border-top: none;
 }
 
 .content time {
@@ -163,16 +175,26 @@ code {
     overflow: auto;
 }
 
-.content h2 {
+.centered {
+    display: flex;
+    justify-content: center;
+}
+
+.content h2,h3,h4,h5,h6 {
     margin-top: 1em;
     margin-bottom: 0.25em;
+}
+
+.content h2 {
     font-size: 125%;
 }
 
 .content h3 {
-    margin-top: 1em;
-    margin-bottom: 0.25em;
     font-size: 100%;
+}
+
+.content h4 {
+    font-size: 90%;
 }
 
 .content {
