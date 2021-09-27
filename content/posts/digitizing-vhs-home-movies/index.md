@@ -152,7 +152,7 @@ Splitting into separate, event-specific files, however, consumed my attention fo
 
 From the initial 30 or so tapes, I ended up with:
 - 15 home movie tapes
-- 64 separate files
+- 63 separate files
 - 11 hours and 30 minutes of content
 - 253GB storage used
 
