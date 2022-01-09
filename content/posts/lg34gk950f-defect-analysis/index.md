@@ -1,6 +1,7 @@
 ---
 title: "LG 34GK950F defect analysis"
 date: 2021-03-12T14:44:57-05:00
+lastmod: 2022-01-09T18:10:48-05:00
 tags: ["lg"]
 draft: false
 aliases:
@@ -40,3 +41,28 @@ A hot air reflow tool might help with the PCB, but I'm not certain it would with
 
 Honestly, I feel ripped off. $799 for a monitor only to have it break in less than two years of **normal use**.
 Worse, I'm concerned about the safety implication this poses to others suffering from the same problem.
+
+## Update
+LG offered me free repair (including shipping) of the monitor after sending them a link to this blog post.
+I received my "repaired" display about a month after shipping it to them. While the display now worked, there was a
+noticeable hair stuck in the middle of the screen between the panel and glass.
+
+{{< gallery class="content-gallery" >}}
+  {{< figure src="repair1_hair.jpg" link="repair1_hair.jpg" class="content-gallery-image" >}}
+{{< /gallery >}}
+
+I contacted support yet again and was offered a second repair - also free of charge.
+Another month later and the "repaired" display is back in my hands... with two issues this time:
+a blue, stuck pixel and a black smudge.
+
+{{< gallery class="content-gallery" >}}
+  {{< figure src="repair2_blue_spot.jpg" link="repair2_blue_spot.jpg" class="content-gallery-image" >}}
+  {{< figure src="repair2_black_smudge.jpg" link="repair2_black_smudge.jpg" class="content-gallery-image" >}}
+{{< /gallery >}}
+
+I understand that LG is offering me free repairs on an out-of-warranty item, but
+they assured me that the service I received was **no different than the service they charge money for**.
+What the fuck...
+
+My next interaction with LG support ultimately resulted in me sending the monitor to them in exchange
+for a $680 check - about $170 less than what I initially paid for the monitor in 2019.
