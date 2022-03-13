@@ -1,3 +1,7 @@
 types {
+    application/gzip    gz;
     application/zstd    zst;
+    audio/flac          flac;
+    audio/opus          opus;
+    video/x-matroska    mkv;
 }
