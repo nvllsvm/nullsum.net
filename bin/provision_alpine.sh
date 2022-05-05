@@ -11,7 +11,7 @@ PasswordAuthentication no
 EOF
 service sshd restart
 
-apk add docker docker-compose rsync
+apk add docker docker-cli-compose rsync
 rc-update add docker boot
 service docker start
 
@@ -21,8 +21,8 @@ EOF
 
 . ~/.profile
 
-docker-compose pull
-docker-compose down --remove-orphans --volumes
-docker-compose up -d
+docker compose pull
+docker compose down --remove-orphans --volumes
+docker compose up -d
 
 docker system prune --all --force --volumes
