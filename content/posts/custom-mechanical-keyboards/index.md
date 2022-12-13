@@ -59,6 +59,6 @@ black Plasti Dip.
 As mentioned earlier, the popular and very active [QMK Firmware](https://docs.qmk.fm) powers my keyboards with
 a layout customized to meet my desires.
 
-The source code for my layout can be found [here](https://github.com/nvllsvm/dotfiles/blob/master/qmk_firmware/s60_x/mine/keymap.c).
+The source code for my layout can be found [here](https://github.com/nvllsvm/dotfiles/tree/master/qmk_firmware/dz60/mine).
 
 ![my layout](layout.png)
