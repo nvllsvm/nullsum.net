@@ -3,6 +3,7 @@ title: "Intel and Dell broke undervolting on my XPS 13"
 date: 2021-02-23T12:51:12-05:00
 tags: ["intel"]
 draft: false
+unlisted: true
 aliases:
     - /posts/undervolting-xps13-9360
 ---

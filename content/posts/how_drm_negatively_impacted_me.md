@@ -3,6 +3,7 @@ title: "How DRM Negatively Impacted Me"
 date: 2021-02-24T18:15:24-05:00
 tags: ["drm"]
 draft: false
+unlisted: true
 aliases:
     - /posts/how-drm-negatively-impacted-me
 ---

@@ -1,5 +1,5 @@
 {{ define "main" }}
-    {{ range (.Paginate (where .Site.RegularPages.ByPublishDate.Reverse "Section" "posts")).Pages }}
+    {{ range (where (.Paginate (where .Site.RegularPages.ByPublishDate.Reverse "Section" "posts")).Pages ".Params.unlisted" "!=" "true")}}
         <header id="listItem" class="content">
             <div class="postList">
                 <time datetime="{{ .Date }}">{{ dateFormat "2006-01-02" .Date }}</time>
