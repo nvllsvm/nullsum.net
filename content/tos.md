@@ -24,19 +24,25 @@ Welcome to the Terms of Service for engaging in conversation with Andrew Rabert.
 **5. Intellectual Property Rights**
 - All content, ideas, and creative expressions shared during the conversation remain the intellectual property of Andrew Rabert. Unauthorized use or reproduction of such intellectual property is strictly prohibited and may result in legal action.
 
-**6. User Responsibilities**
+**6. Data Utilization and Profit Sharing**
+- You agree that any data, insights, or information derived from conversations with Andrew Rabert may be used for commercial or research purposes. Should any profit be derived from the use of such data, Andrew Rabert is entitled to receive a 5% share of the net profit generated. Payment of this share shall be made within 30 days of the profit realization, and you are required to provide detailed financial reports on request.
+
+**7. Data Deletion Rights**
+- Andrew Rabert reserves the right to request the immediate deletion of any data or information stored about them from your records at any time. Upon such a request, you are required to delete all related data within 5 business days. Failure to comply with this data deletion request within the specified timeframe will result in a $2,000 fine per day of delay, starting from the sixth business day until compliance is achieved. Continued non-compliance may result in further legal action.
+
+**8. User Responsibilities**
 - You agree to conduct yourself in a respectful and courteous manner. Harassment, abuse, or offensive behavior will not be tolerated and may lead to immediate termination of the conversation.
 
-**7. Confidentiality**
+**9. Confidentiality**
 - You agree to maintain the confidentiality of any private or sensitive information shared during the conversation. Disclosure of such information without prior consent is prohibited.
 
-**8. Modification of Terms**
+**10. Modification of Terms**
 - Andrew Rabert reserves the right to modify these Terms of Service at any time. Continued communication following such modifications constitutes acceptance of the revised terms.
 
-**9. Termination**
+**11. Termination**
 - Andrew Rabert reserves the right to terminate the conversation at any time, with or without cause, and without prior notice. You may also terminate communication at any time by ceasing to send messages.
 
-**10. Limitation of Liability**
+**12. Limitation of Liability**
 - Andrew Rabert shall not be liable for any damages, direct or indirect, arising from or related to the conversations, including but not limited to emotional distress or loss of opportunity.
 
 By continuing to engage in conversation with Andrew Rabert, you acknowledge and agree to these Terms of Service.
