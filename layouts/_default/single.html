@@ -1,9 +1,11 @@
 {{ define "main" }}
     <div class="content">
         <header>
-            <time datetime="{{ .Date }}">{{ dateFormat "2006-01-02" .Date }}</time>
-            {{ if ne .Lastmod .Date }}
-                </br><time datetime="{{ .Lastmod }}">Updated: {{ dateFormat "2006-01-02" .Lastmod }}</time>
+            {{ if .Date }}
+                <time datetime="{{ .Date }}">{{ dateFormat "2006-01-02" .Date }}</time>
+                {{ if ne .Lastmod .Date }}
+                    </br><time datetime="{{ .Lastmod }}">Updated: {{ dateFormat "2006-01-02" .Lastmod }}</time>
+                {{ end }}
             {{ end }}
             <h1>{{ .Title }}</h1>
         </header>
