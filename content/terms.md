@@ -2,7 +2,7 @@
 title: "Terms of Service"
 unlisted: true
 aliases:
-    - /tos
+    - /terms
 ---
 
 *Effective Date: Upon initiation of communication*
